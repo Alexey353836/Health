@@ -1,3 +1,23 @@
+
+@media screen and (max-width: 1450px) {
+    .main__title {
+        font-size: 50px;
+        margin-bottom: 50px;
+        max-width: 450px;
+    }
+    .main__text {
+        margin-bottom: 50px;
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .services__items {
+        grid-template-areas:
+         "f-1 f-5"
+         "f-3 f-4"
+         "f-2 f-6";
+    }
+}
 @media screen and (max-width: 1100px) {
     .main-container {
         max-width: 800px;
@@ -18,16 +38,55 @@
 
 /* main */
     .main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-        gap: 0px;
+        flex-direction: column;
         padding: 10px 20px;
-        max-height: 600px;
-        margin-left: 30px;
     }
     .main__box-1 {
-    max-width: 100%;
+        max-width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .main__title {
+        font-size: 48px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .main__text {
+        margin-bottom: 70px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .main__box-button{
+        display: flex;
+        justify-content: center;
+    }
+    .main__button{
+      margin-left: 0
+    
+    }
+    .nain__box-2{
+      margin-top: 50px;
+    }
+
+    /* services */
+    .services {
+        padding: 60px 20px;
+    }
+    .underline {
+        margin: 30px auto;
+    }
+    .services__items {
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .services__item {
+        padding: 20px;
+    }
+    .services__item-title {
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 56px;
     }
 }
 
@@ -37,6 +96,20 @@
     .main__title {
         font-size: 35px;
         line-height: 35px;
-        
     }
+    .main__text {
+        margin-bottom: 50px;
+    }
+
+    /* services */
+    .services__items {
+        grid-template-areas:
+         "f-1"
+         "f-2"
+         "f-3"
+         "f-4"
+         "f-5"
+         "f-6";
+    }
+  
 }
