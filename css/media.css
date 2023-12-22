@@ -31,7 +31,7 @@
         grid-area: block-3;
     }
     .healthcare__box-img {
-        margin-top: 30px;
+        margin-top: 35px;
     }
     .healthcare_box-text {
         text-align: center;
@@ -65,7 +65,7 @@
         justify-content: flex-end;
     }
     .download__box-3 {
-        margin-top: 30px;
+        margin-top: 35px;
     }
 }
 @media screen and (max-width: 1200px) {
