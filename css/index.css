@@ -292,4 +292,54 @@ button:active{
     background-color: var(--main-color);
 }
 
+/* Healthcare */
+.healthcare {
+    padding: 80px 100px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: 
+    "block-1 block-2"
+    "block-1 block-3";
+}
+.box-1{
+    grid-area: block-1;
+}
+.box-2{
+    grid-area: block-2;
+}
+.box-3{
+    grid-area: block-3;
+}
+.healthcare__box-img {
+    max-width: 650px;
+    max-height: 477px;
+}
+.healthcare__img {
+    width: 100%;
+}
+.healthcare_box-text {
+    margin-top: 57px;
+}
+.healhcare__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 481px;
+}
+.healthcare__underline{
+    margin: 26px 0 31px;
+}
+.healthcare__text {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 450px;
+}
+.healthcare__box-button{
+    margin-top: 37px;
+}
+
+
 
