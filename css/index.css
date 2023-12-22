@@ -338,7 +338,49 @@ button:active{
     max-width: 450px;
 }
 .healthcare__box-button{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
     margin-top: 37px;
+}
+
+/* download */
+.bownload {
+    padding: 80px 100px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-areas: 
+    "d-1 d-3"
+    "d-2 d-3";
+}
+.download__box-1 {
+    grid-area: d-1;
+    margin-top: 57px;
+}
+.download__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 481px;
+}
+.download__text {
+    color: #7D7987;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 450px;
+}
+.download__box-2 {
+    display: flex;
+    justify-content: flex-end;
+    grid-area: d-2;
+    margin-top: 37px;
+    width: 100%;
+}
+.download__box-3 {
+    grid-area: d-3;
+    max-width: 650px;
 }
 
 

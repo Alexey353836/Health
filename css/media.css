@@ -39,6 +39,27 @@
     .healthcare__box-button{
         margin-top: 100px;
     }
+
+    /* download  */
+    .bownload {
+        padding: 60px 100px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "d-1"
+        "d-3"
+        "d-2";
+    }
+    .download__box-1 {
+        grid-area: d-1;
+        margin-top: 57px;
+        text-align: center;
+    }
+    .download__box-2 {
+        grid-area: d-2;
+        margin-top: 100px;
+    }
 }
 @media screen and (max-width: 1200px) {
     .services__items {
@@ -100,7 +121,7 @@
 
     /* services */
     .services {
-        padding: 60px 20px;
+        padding: 60px 20px 30px;
     }
     .underline {
         margin: 30px auto;
@@ -118,14 +139,29 @@
         font-weight: 700;
         line-height: 56px;
     }
+    .services__box-button{
+        margin-top: 40px;
+    }
 
     /* healthcare */
-        .healthcare {
-        padding: 60px 20px;
+    .healthcare {
+        padding: 30px 20px;
     }
     .healthcare__underline{
         margin: 36px auto;
     }
+    .healthcare__box-button{
+        margin-top: 45px;
+    }
+
+    /* download */
+    .bownload {
+        padding: 30px 20px;
+    }
+    .nain__box-2{
+        margin-top: 45px;
+      }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -155,5 +191,18 @@
         font-size: 35px;
         line-height: 35px;
     }
-  
+    .healthcare__box-button{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 37px;
+    }
+     /* download */
+     .download__title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .download__box-2 {
+        justify-content: center;
+    }
 }
