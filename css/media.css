@@ -67,6 +67,18 @@
     .download__box-3 {
         margin-top: 35px;
     }
+
+    /* customer */
+    .customer {
+        padding: 60px 100px;
+    }
+    .customer__slider {
+        border-radius: 24px;
+        background-color: var(--main-color);
+        padding: 20px 50px 50px;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 1200px) {
     .services__items {
@@ -120,7 +132,6 @@
     }
     .main__button{
       margin-left: 0
-    
     }
     .nain__box-2{
       margin-top: 50px;
@@ -168,8 +179,39 @@
     .healthcare__box-button{
         margin-top: 45px;
     }
-}
 
+    /* customer */
+    .customer {
+        padding: 30px 20px;
+    }
+    .customer__block-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .customer__title {
+        color: #FFF;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .customer__box-2-p {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .customer__box-1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        }
+        .customer__box-1-text {
+            text-align: center;
+        }
+        .customer__box-2 {
+            text-align: center;
+        }
+}
 @media screen and (max-width: 600px) {
 
 /* main */
@@ -211,4 +253,5 @@
     .download__box-2 {
         justify-content: center;
     }
+
 }
