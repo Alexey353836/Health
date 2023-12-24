@@ -331,5 +331,6 @@
          "footer-2"
          "footer-3"
          "footer-4";
+         row-gap: 20px;
     }
 }
