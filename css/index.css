@@ -461,3 +461,74 @@ align-items: center;
 .circle-active {
     background-color: var(--main-color);
 }
+
+/* Check */
+.check {
+    padding: 80px 100px;
+}
+.check__title {
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+}
+.check__underline {
+    margin: 26px auto 31px;
+}
+.check__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 10px; 
+}
+.check__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px 50px;
+    position: relative;
+}
+.check__box-img {
+    max-width: 369px;
+    max-height: 246px;
+}
+.check_box-text {
+    margin-top: 21px;
+    max-width: 266px;
+}
+.check__item-title {
+    color: #000;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.check__item-text {
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+
+    margin-top: 12px;
+}
+.check__box-readMoo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 30;
+    bottom: 0;
+}
+.readMoo-text {
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px; 
+}
+.readMoo-img {
+    width: 14px;
+    margin-left: 10px;
+}
+.check_button {
+    margin: 0 auto;
+}
+
+
