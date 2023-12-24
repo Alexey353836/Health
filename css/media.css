@@ -82,7 +82,7 @@
 
     /* footer */
     .footer {
-        padding: 50px 50px;
+        padding: 50px 50px 20px;
     }
     .footer__content {
         grid-template-columns: 1fr 1fr 1fr;
